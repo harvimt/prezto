@@ -11,3 +11,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+prompt agnoster
+export EDITOR=`echo =vim`
+bindkey -v
+
+function pyc(){
+    rm -f **/*.pyc
+    rm -rf **/__pycache__
+}
+
+. ~/.zshrc_local
