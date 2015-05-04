@@ -20,4 +20,5 @@ function pyc(){
     rm -rf **/__pycache__
 }
 
+. ~/.dotfiles/z/z.sh
 . ~/.zshrc_local
