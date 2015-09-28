@@ -22,3 +22,5 @@ function pyc(){
 
 . ~/.dotfiles/z/z.sh
 . ~/.zshrc_local
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
