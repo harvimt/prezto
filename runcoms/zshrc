@@ -24,3 +24,9 @@ function pyc(){
 . ~/.zshrc_local
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias dcp=docker-compose
+alias dk=docker
+alias dmc=docker-machine
+alias g=git
+alias v=vim
